@@ -10,7 +10,11 @@ body    {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #0A7968;
+    background-image: url(img4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: none;
+    background-position: center;
+    background-size: cover;
 }
 
 .wrapper    {
@@ -19,8 +23,7 @@ body    {
     color: #FFFF;
     padding: 25px;
     border-radius: 25px;
-    border: 2px solid;
-    border-color: #cedc00;
+    border: solid 3px black;
 }
 
 .wrapper h1 {
@@ -35,6 +38,7 @@ body    {
     background: #cedc00;
     margin: 30px 0;
     border-radius: 40px;
+    border: solid 2px #000000
 }
 
 .input-box input    {
@@ -43,7 +47,7 @@ body    {
     background: transparent;
     outline: none;
     border: none;
-    border: 2px splix rgba(255, 255, 255, .2);
+    border: 2px solid (255, 255, 255, .2);
     border-radius: 40px;
     font-size: 16px;
     color: #FFFF;
@@ -92,7 +96,7 @@ body    {
     border-color: transparent;
     border-radius: 40px;
     color: #FFFF;
-    box-shadow: 0 0 10px;
+    box-shadow: 0 0 10px black;
     cursor: pointer;
     font-size: 14px;
     font-weight: 600;
